@@ -21,7 +21,7 @@ class Set{
 public class Call_ValueRef {
 
 	public static void main(String[] args) {
-		// call by value
+				// call by value
 				int num3 = Person.say(2);
 				// call by Reference
 				Person jack =new Person();
