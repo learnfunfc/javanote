@@ -1,18 +1,18 @@
 package javaNote;
 
 //constructor 
-class Car{
+class Car1{
 	// initialize variable
 	private double gas =0;
 	private String color ="";
 	
 	// constructor no argument
-	Car(){
+	Car1(){
 		gas = 100;
 		color = "white";
 	}
 	
-	Car(int gas, String color){
+	Car1(int gas, String color){
 		this.gas = gas;
 		this.color = color;
 		
@@ -25,12 +25,12 @@ class Car{
 	
 }
 
-public class obj {
+public class Execute {
 
 	public static void main(String[] args) {
-		Car car1 = new Car(); //use no-argument constructor
+		Car1 car1 = new Car1(); //use no-argument constructor
 		car1.show();
-		Car car2 = new Car(80,"Red");//use constructor with arguments
+		Car1 car2 = new Car1(80,"Red");//use constructor with arguments
 		car2.show();
 
 	}
